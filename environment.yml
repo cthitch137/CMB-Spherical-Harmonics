@@ -1,0 +1,16 @@
+name: cmb-harmonics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy>=1.24
+  - scipy>=1.10
+  - matplotlib>=3.7
+  - astropy>=5.3
+  - pandas>=2.0
+  - jupyter
+  - pip
+  - pip:
+    - healpy>=1.16
+    - numba>=0.57

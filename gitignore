@@ -1,0 +1,49 @@
+# ── Planck data files (too large for git, ~3 GB) ─────────────────────────────
+*.fits
+*.fit
+*.fts
+
+# ── Large numpy data files (GPU-computed a_lm arrays, etc.) ──────────────────
+*.npy
+*.npz
+
+# ── Jupyter Notebook checkpoints ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ── Numba cache ───────────────────────────────────────────────────────────────
+__pycache__/
+*.nbi
+*.nbc
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ── Conda ─────────────────────────────────────────────────────────────────────
+.conda/
+
+# ── Animation frames and output videos ───────────────────────────────────────
+frames*/
+cmb_frames/
+*.mp4
+*.avi
+*.mov
+
+# ── OS clutter ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor files ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
