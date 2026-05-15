@@ -71,7 +71,8 @@ jupyter notebook CMB_Spherical_Harmonics_Guide.ipynb
 
 ```
 cmb-spherical-harmonics/
-├── CMB_Spherical_Harmonics_Guide.ipynb   # Main notebook
+├── CMB_Spherical_Harmonics_Guide.ipynb   # Guide notebook
+├── Spherical_harmonics_tester.ipynb   # Work notebook
 ├── requirements.txt                       # pip dependencies
 ├── environment.yml                        # Conda environment
 ├── README.md                              # This file
