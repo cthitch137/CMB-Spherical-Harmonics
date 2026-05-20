@@ -28,7 +28,7 @@ Written to be approachable for someone new to both the CMB and spherical harmoni
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cmb-spherical-harmonics.git
+git clone https://github.com/cthitch137/cmb-spherical-harmonics.git
 cd cmb-spherical-harmonics
 ```
 
@@ -71,8 +71,8 @@ jupyter notebook CMB_Spherical_Harmonics_Guide.ipynb
 
 ```
 cmb-spherical-harmonics/
-├── CMB_Spherical_Harmonics_Guide.ipynb   # Guide notebook
-├── Spherical_harmonics_tester.ipynb   # Work notebook
+├── CMB_Spherical_Harmonics_Guide.ipynb    # Guide notebook
+├── Spherical_harmonics_tester.ipynb       # Work notebook
 ├── requirements.txt                       # pip dependencies
 ├── environment.yml                        # Conda environment
 ├── README.md                              # This file
